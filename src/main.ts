@@ -5,6 +5,6 @@ import router from './router'
 import { VuePageStackPlugin } from 'vue-page-stack';
 
 createApp(App)
-.use(router)
-.use(VuePageStackPlugin, { router })
-.mount('#app')
+    .use(router)
+    .use(VuePageStackPlugin, { router })
+    .mount('#app')
